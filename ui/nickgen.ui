@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NickName Generator by S-Mamashin</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../source/appicon.png</normaloff>../source/appicon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #1b1b1b;</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+	background: rgb(80, 66, 136) ;
+	border-radius: 20px;
+	padding: 10px;
+	width: 80%;
+	outline: none;
+	font-size: 18px;
+	text-align: center;
+	color: rgb(227, 227, 227);
+}
+
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Тут будет ваш ник</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: none;
+	background-color: rgb(100, 82, 170) ;
+	color: #fff;
+	border-radius: 20px;
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+QPushButton:pressed {
+	background-color: rgb(77, 63, 131) ;
+}</string>
+   </property>
+   <property name="text">
+    <string>Сгенерировать ник</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>351</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 15px;
+color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Исходный код приложения, доступен на &lt;/span&gt;&lt;a href=&quot;https://github.com/SMamashin/NickGenerator/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffaaff;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/SMamashin/NickGenerator/&quot;&gt;&lt;span style=&quot; color:#ffffff; text-decoration: none;&quot;&gt;Приятного использования by S-Mamashin&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>171</y>
+     <width>211</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;
+color: #fff;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>Без _</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(100, 82, 170);
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	width: 80%;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+QPushButton:pressed {
+	background-color: rgb(77, 63, 131) ;
+}</string>
+      </property>
+      <property name="text">
+       <string>Женский</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
