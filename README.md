@@ -1,6 +1,6 @@
 # NickGenerator
 <img src="./source/cover.jpg"  alt="error" title="cover-project">
-PassGenerator(lol) is another one of my local GUI projects! :3
+And another one of my useless projects for generating names and nicknames :D
 
 This application allows the user to generate a name or nickname!
 
