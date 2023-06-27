@@ -8,7 +8,11 @@ This application allows the user to generate a name or nickname!
 I used Python in duo with Qt5 to create the interface! 🐍
 
 ---
+## **Preview**
+<img src="./source/ui_view.png"  alt="error" title="ui_view">
 
+
+---
 ## **How to run it?**
 You can use this after installing PyQt5 module
 * pip install pyqt5
