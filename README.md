@@ -23,4 +23,4 @@ Or build it with pyinstaller
 
 ---
 ## **Author**
-Stepan Mamashi
+Stepan Mamashin
